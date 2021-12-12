@@ -1,0 +1,142 @@
+ 
+@media (min-width: 1200px){
+    
+}
+
+@media (max-width: 1241.60px){
+    
+}
+ 
+ /* Tablet && Mobile */
+
+@media (max-width: 1024px){
+    .hide{
+        display: none;
+    }
+
+    .full_pc{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+
+}
+
+ /* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px){
+    .content__product-text {
+        position: absolute;
+        bottom: 41px;
+        left: 50%;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 46px;
+        border-bottom: 3px solid #fff;
+        transform: translateX(-50%);
+    }
+
+}
+
+
+
+@media (max-width: 800px){
+    .content__product-images img {
+        max-width: 100%;
+        min-height: 63vh;
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .content__product-images img {
+        max-width: 100%;
+        min-height: 45vh;
+    }
+
+}
+
+ /* Mobile */
+ @media (max-width: 739px){
+    .content__product-text {
+        position: absolute;
+        bottom: 41px;
+        left: 50%;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 29px;
+        border-bottom: 3px solid #fff;
+        transform: translateX(-50%);
+    }
+
+    .content__product-images img {
+        max-width: 100%;
+        min-height: 38vh;
+    }
+
+    .content__fil-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+/* Mobile-small */
+@media (max-width: 600px){
+    .content__product-images img {
+        max-width: 100%;
+        min-height: 45vh;
+    }
+
+}
+
+@media (max-width: 568px){
+    
+
+}
+
+
+@media (max-width: 500px){
+    .content__product-text {
+        position: absolute;
+        bottom: 41px;
+        left: 50%;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 29px;
+        border-bottom: 3px solid #fff;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 415px){
+    .content__product-images img {
+        max-width: 100%;
+        min-height: 50vh;
+    }
+
+}
+
+@media (max-width: 400px){
+    
+}
+
+@media (max-width: 320px){
+    .content__product-text {
+        position: absolute;
+        bottom: 41px;
+        left: 50%;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+        font-size: 27px;
+        border-bottom: 3px solid #fff;
+        transform: translateX(-50%);
+    }
+}

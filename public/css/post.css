@@ -1,0 +1,129 @@
+/* ==========================CONTENT=============================== */
+
+
+.content__post-name{
+    position: absolute;
+    bottom: 65px;
+    left: 96px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 3px solid;
+    font-size: 48px;
+}
+
+.content__section{
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+    transform: translateX(50%);
+    text-transform: uppercase;
+    background: rgb(5 0 0 / 50%);
+    width: 100%;
+}
+
+.content__section h2{
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.content__post-title h2{
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 33px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: inherit;
+    font-size: 37px;
+    padding-bottom: 27px;
+}
+
+
+.content__post-item{
+    padding: 15px 18px;
+    border: 1px solid #333;
+    margin-bottom: 29px;
+    background: #fff;
+}
+
+.content__post-createdAt p{
+    border: 1px solid #333;
+    display: inline-block;
+    margin-top: 14px;
+    padding: 7px 18px;
+    color: #cababa;
+    margin-left: 6px;
+
+}
+
+.content__post{
+    background: #efe6e6;
+}
+
+.content__post-text a{
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 0px 4px 7px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: inline-block;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+.content__post-read a{
+    text-decoration: none;
+    color: #333;
+    margin-left: 9px;
+    margin: 9px 0px 12px 9px;
+    display: block;
+}
+
+.content__post-item:hover{
+    background: #333;
+    transition: all 0.7s;
+}
+
+.content__post-item:hover .content__post-createdAt p{
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.content__post-item:hover .content__post-text a{
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.content__post-item:hover .content__post-read a{
+    color: #fff;
+    transition: all 0.7s;
+}
+
+.content__post-img{
+    overflow: hidden;
+}
+
+.content__post-img a img{
+    width: 312px;
+    height: 218px;
+}
+
+.content__post-item:hover .content__post-img img{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.content__post-read i{
+    transform: translateY(12%);
+}
+
+.content__post-item:hover .content__post-read i{
+    padding-left: 10px;
+    transition: all 1s;
+}
+/* ==========================END-CONTENT=========================== */
